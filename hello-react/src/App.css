@@ -1,0 +1,126 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  margin:50px
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#nav {
+  padding-top: 5px;
+  padding-left:40px ;    
+  padding-right:40px ;
+  background-color: rgb(40,40,40);  
+  display: flex;
+  height: 5em;
+  flex-direction: row;  
+  justify-content:space-between;  
+  color: white;
+}
+
+#header {
+  padding-left:40px ;    
+  padding-right:40px ;
+  background-color: rgb(40,40,40);  
+  display: flex;
+  height: 30em;
+  flex-direction: column;
+  /* justify-content: space-around;   */
+  align-items:flex-start;
+  color: white;
+}
+
+#header > p {
+  margin-top: 8px;
+  width: 15.5em;
+}
+#header > button {
+  background-color: whitesmoke;
+  font-weight: bold;
+  margin-top: 40px;
+  width: 8em;
+  height: 3.5em;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+
+
+
+h1 {
+  width: 7em;
+  font-size: 3em;
+  margin-top: 2em;
+  
+
+}
+
+
+
+#footer {
+  padding-left:10px ;    
+  padding-right:10px ;    
+  margin-top: 8em;
+  display: flex;
+  height: 25em;
+  flex-direction: row;  
+  /* justify-content:space-evenly;   */  
+}
+
+#footer > div {
+  padding-left: 50px;
+  padding-right:50px ;
+  display: flex;
+  flex-direction: column;  
+  align-items:flex-start;
+  color: rgb(120, 117, 117);
+}
+
+h3 {
+  color: black;
+  font-size: 2em;
+}
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
